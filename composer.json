@@ -1,5 +1,5 @@
 {
-    "name": "rinvex/laravel-support",
+    "name": "somuoki/laravel-support",
     "description": "Rinvex common support helpers, contracts, and traits required by various Rinvex packages. Validator functionality, and basic controller included out-of-the-box.",
     "type": "library",
     "keywords": [
