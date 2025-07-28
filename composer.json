@@ -14,12 +14,12 @@
         "trait"
     ],
     "license": "MIT",
-    "homepage": "https://rinvex.com/marketplace/rinvex-support/",
+    "homepage": "https://github.com/somuoki/laravel-support",
     "support": {
-        "email": "help@rinvex.com",
-        "issues": "https://github.com/rinvex/laravel-support/issues",
-        "source": "https://github.com/rinvex/laravel-support",
-        "docs": "https://github.com/rinvex/laravel-support/blob/master/README.md"
+        "email": "somuoki977@gmail.com",
+        "issues": "https://github.com/somuoki/laravel-support/issues",
+        "source": "https://github.com/somuoki/laravel-support",
+        "docs": "https://github.com/somuoki/laravel-support/blob/master/README.md"
     },
     "authors": [
         {
@@ -36,6 +36,12 @@
         {
             "name": "The Generous Laravel Community",
             "homepage": "https://github.com/rinvex/laravel-support/contributors"
+        },
+        {
+            "name": "Solomon Muoki",
+            "email": "somuoki977@gmail.com",
+            "homepage": "https://somuoki.github.io",
+            "role": "Maintainer"
         }
     ],
     "require": {

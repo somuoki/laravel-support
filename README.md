@@ -1,10 +1,10 @@
-# Rinvex Support
+# Laravel Support (Fork)
 
-**Rinvex common** support helpers, contracts, and traits required by various Rinvex packages. Validator functionality, and basic controller included out-of-the-box.
+**Forked from Rinvex common support** helpers, contracts, and traits required by various packages. Validator functionality, and basic controller included out-of-the-box.
 
-[![Packagist](https://img.shields.io/packagist/v/rinvex/laravel-support.svg?label=Packagist&style=flat-square)](https://packagist.org/packages/rinvex/laravel-support)
-[![Scrutinizer Code Quality](https://img.shields.io/scrutinizer/g/rinvex/laravel-support.svg?label=Scrutinizer&style=flat-square)](https://scrutinizer-ci.com/g/rinvex/laravel-support/)
-[![Travis](https://img.shields.io/travis/rinvex/laravel-support.svg?label=TravisCI&style=flat-square)](https://travis-ci.org/rinvex/laravel-support)
+> **Note:** This is a maintained fork of the original Rinvex package. Original package development may have stopped.
+
+[![Packagist](https://img.shields.io/packagist/v/somuoki/laravel-support.svg?label=Packagist&style=flat-square)](https://packagist.org/packages/somuoki/laravel-support)
 [![StyleCI](https://styleci.io/repos/60968880/shield)](https://styleci.io/repos/60968880)
 [![License](https://img.shields.io/packagist/l/rinvex/laravel-support.svg?label=License&style=flat-square)](https://github.com/rinvex/laravel-support/blob/develop/LICENSE)
 
@@ -14,7 +14,7 @@
 
 ## Installation
 
-Install via `composer require rinvex/laravel-support`
+Install via `composer require somuoki/laravel-support`
 
 
 ## Usage
@@ -47,11 +47,13 @@ Refer to the [Changelog](CHANGELOG.md) for a full history of the project.
 
 ## Support
 
-The following support channels are available at your fingertips:
+This fork is maintained by Solomon Muoki. Support channels:
 
-- [Chat on Slack](https://bit.ly/rinvex-slack)
-- [Help on Email](mailto:help@rinvex.com)
-- [Follow on Twitter](https://twitter.com/rinvex)
+- [Help on Email](mailto:somuoki977@gmail.com)
+- [GitHub Issues](https://github.com/somuoki/laravel-support/issues)
+
+Original package support:
+- [Rinvex Support](mailto:help@rinvex.com)
 
 
 ## Contributing & Protocols
@@ -69,16 +71,17 @@ Bug reports, feature requests, and pull requests are very welcome.
 
 ## Security Vulnerabilities
 
-If you discover a security vulnerability within this project, please send an e-mail to [help@rinvex.com](help@rinvex.com). All security vulnerabilities will be promptly addressed.
+If you discover a security vulnerability within this project, please send an e-mail to [somuoki977@gmail.com](mailto:somuoki977@gmail.com). All security vulnerabilities will be promptly addressed.
 
 
-## About Rinvex
+## About the Maintainer
 
-Rinvex is a software solutions startup, specialized in integrated enterprise solutions for SMEs established in Alexandria, Egypt since June 2016. We believe that our drive The Value, The Reach, and The Impact is what differentiates us and unleash the endless possibilities of our philosophy through the power of software. We like to call it Innovation At The Speed Of Life. That’s how we do our share of advancing humanity.
+This package is currently maintained by Solomon Muoki as a community fork. The original Rinvex package served as the foundation for this continued development.
 
 
 ## License
 
 This software is released under [The MIT License (MIT)](LICENSE).
 
-(c) 2016-2022 Rinvex LLC, Some rights reserved.
+(c) 2016-2022 Rinvex LLC, Some rights reserved.  
+(c) 2023-present Solomon Muoki, Maintained fork.
