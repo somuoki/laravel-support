@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Rinvex\Support\Traits;
+namespace Somuoki\Support\Traits;
 
 use Watson\Validating\Injectors\UniqueWithInjector;
 use Watson\Validating\ValidatingTrait as BaseValidatingTrait;

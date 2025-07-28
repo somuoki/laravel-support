@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Rinvex\Support\Validators;
+namespace Somuoki\Support\Validators;
 
 use Illuminate\Support\Arr;
 use Illuminate\Support\Str;
@@ -116,7 +116,7 @@ class UniqueWithRuleParser
             $model = new $table();
             $table = $model->getTable();
 
-            return $model ? ($this->isValidationScoped($model) ? $model : $model->withoutGlobalScopes()) : (new AbstractModel())->setTable($table);
+            return $model ? ($this->isValidationScoped($model) ? $model : $model->withoutGlobalScopes()) : null;
         }
 
         return $table;

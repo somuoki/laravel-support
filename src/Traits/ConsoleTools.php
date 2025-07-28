@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Rinvex\Support\Traits;
+namespace Somuoki\Support\Traits;
 
 use Illuminate\Support\Str;
 

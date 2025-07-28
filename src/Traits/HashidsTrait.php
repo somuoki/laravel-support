@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Rinvex\Support\Traits;
+namespace Somuoki\Support\Traits;
 
 use Vinkla\Hashids\Facades\Hashids;
 use Illuminate\Database\Eloquent\Casts\Attribute;

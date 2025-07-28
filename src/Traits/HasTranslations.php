@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Rinvex\Support\Traits;
+namespace Somuoki\Support\Traits;
 
 use Illuminate\Support\Arr;
 use Illuminate\Support\Str;
-use Spatie\Translatable\Events\TranslationHasBeenSet;
 use Spatie\Translatable\HasTranslations as BaseHasTranslations;
+use Spatie\Translatable\Events\TranslationHasBeenSet;
 
 trait HasTranslations
 {

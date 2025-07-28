@@ -2,17 +2,19 @@
 
 declare(strict_types=1);
 
-namespace Rinvex\Support\Traits;
+namespace Somuoki\Support\Traits;
 
 use Illuminate\Database\Eloquent\Builder;
-use Spatie\LaravelSchemalessAttributes\SchemalessAttributes;
+use Spatie\SchemalessAttributes\SchemalessAttributes;
+//use Spatie\SchemalessAttributes\Casts\SchemalessAttributes;
+
 
 trait HasSocialAttributes
 {
     /**
      * Get social attributes.
      *
-     * @return \Spatie\LaravelSchemalessAttributes\SchemalessAttributes
+     * @return \Spatie\SchemalessAttributes\SchemalessAttributes
      */
     public function getSocialAttribute(): SchemalessAttributes
     {
@@ -26,6 +28,6 @@ trait HasSocialAttributes
      */
     public function scopeWithSocial(): Builder
     {
-        return SchemalessAttributes::scopeWithSchemalessAttributes('social');
+        return SchemalessAttributes::createForModel($this, 'social')->modelScope();
     }
 }

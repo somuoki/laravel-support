@@ -63,12 +63,12 @@
             "src/Support/helpers.php"
         ],
         "psr-4": {
-            "Rinvex\\Support\\": "src/"
+            "Somuoki\\Support\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Rinvex\\Support\\Tests\\": "tests"
+            "Somuoki\\Support\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -82,7 +82,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Rinvex\\Support\\Providers\\SupportServiceProvider"
+                "Somuoki\\Support\\Providers\\SupportServiceProvider"
             ]
         }
     },
