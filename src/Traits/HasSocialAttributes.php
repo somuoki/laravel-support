@@ -5,14 +5,14 @@ declare(strict_types=1);
 namespace Rinvex\Support\Traits;
 
 use Illuminate\Database\Eloquent\Builder;
-use Spatie\SchemalessAttributes\SchemalessAttributes;
+use Spatie\LaravelSchemalessAttributes\SchemalessAttributes;
 
 trait HasSocialAttributes
 {
     /**
      * Get social attributes.
      *
-     * @return \Spatie\SchemalessAttributes\SchemalessAttributes
+     * @return \Spatie\LaravelSchemalessAttributes\SchemalessAttributes
      */
     public function getSocialAttribute(): SchemalessAttributes
     {
