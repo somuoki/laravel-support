@@ -121,4 +121,55 @@ trait ConsoleTools
             $this->app->singletonIf($model, $model);
         }
     }
+
+    /**
+     * Register console commands.
+     *
+     * @param array $commands
+     * @return void
+     */
+    protected function registerCommands(array $commands): void
+    {
+        foreach ($commands as $command => $abstract) {
+            $this->app->singleton($abstract, $command);
+            $this->commands($abstract);
+        }
+    }
+
+    /**
+     * Publish config files.
+     *
+     * @param string $group
+     * @return void
+     */
+    protected function publishesConfig(string $group): void
+    {
+        $this->publishes([
+            __DIR__.'/../../config/config.php' => $this->app->configPath("{$group}.php"),
+        ], 'config');
+    }
+
+    /**
+     * Publish migration files.
+     *
+     * @param string $group
+     * @return void
+     */
+    protected function publishesMigrations(string $group): void
+    {
+        $this->publishes([
+            __DIR__.'/../../database/migrations' => $this->app->databasePath("migrations/{$group}"),
+        ], 'migrations');
+    }
+
+    /**
+     * Check if migrations should be autoloaded.
+     *
+     * @param string $group
+     * @return bool
+     */
+    protected function autoloadMigrations(string $group): bool
+    {
+        return $this->app['config']->get("{$group}.autoload_migrations", false);
+    }
 }
